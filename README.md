@@ -7,6 +7,6 @@
 - To create migration file: `python manage.py makemigrations`
 - To create virtual env: `python -m venv venv`, and to activate it: `source venv/bin/activate
 `, and to deactivate it: `deactivate`
-
+- to update static files directory: `python manage.py collectstatic`
 ## Out resources
 - Check `coverage` for test coverage: `https://coverage.readthedocs.io/en/coverage-5.3/`
