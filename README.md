@@ -8,3 +8,5 @@
 - To create virtual env: `python -m venv venv`, and to activate it: `source venv/bin/activate
 `, and to deactivate it: `deactivate`
 
+## Out resources
+- Check `coverage` for test coverage: `https://coverage.readthedocs.io/en/coverage-5.3/`
