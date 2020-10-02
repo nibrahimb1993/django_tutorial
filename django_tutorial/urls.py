@@ -25,7 +25,7 @@ urlpatterns = [
     path('login/', auth_views.LoginView.as_view(), name='login'),
     path('logout/', auth_views.LogoutView.as_view(), name='logout'),
     path('o/', include('oauth2_provider.urls', namespace='oauth2_provider')),
-    path('users/', UserList.as_view()),
-    path('users/<pk>/', UserDetails.as_view()),
-    path('groups/', GroupList.as_view()),
+    path('users/', UserList.as_view(), name='list_users'),
+    path('users/<pk>/', UserDetails.as_view(), name='show_user'),
+    path('groups/', GroupList.as_view(), name='list_groups'),
 ]
