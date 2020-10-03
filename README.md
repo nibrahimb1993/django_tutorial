@@ -1,5 +1,9 @@
 # Django tutorial
 
+## Requirements
+
+- Broker for Celery (RabbitMQ or Redis), we are using RabbitMQ from docker image.
+
 ## Commands
 - To create user run in shell: `python manage.py createsuperuser`
 - To update `requirements.tx` file: `pip freeze-> requirements.txt`, and to install from it: `pip install -r requirements.txt`
