@@ -20,6 +20,7 @@ from django.contrib.auth import views as auth_views
 from django_tutorial.views import UserList, UserDetails, GroupList
 
 urlpatterns = [
+    path('accounts/', include('allauth.urls')),
     path('polls/', include('polls.urls')),
     path('admin/', admin.site.urls),
     path('login/', auth_views.LoginView.as_view(), name='login'),
